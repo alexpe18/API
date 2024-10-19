@@ -5,10 +5,6 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const moment = require('moment');
 
-app.use(cors({
-  origin: 'https://ha-do-ad.web.app',
-}));
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
